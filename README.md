@@ -7,6 +7,10 @@ This is a basic App created with Flask for users to upload a question and get th
 ## Prerequisites:
 This app is created in Pycharm and Python 3.7 is used.
 
+## Database
+Sqlite3 library is used for this app. After sqlite3 installation in your operation system in order to create the database, you need to open the terminal and put the next command:
+sqlite3 <your_database> < food_trucker.sql , where food_trucker.sql includes the rules for the database creation.
+
 ### The modules need to be installed are:
 Flask
 ### The modules need to be importeds are:
